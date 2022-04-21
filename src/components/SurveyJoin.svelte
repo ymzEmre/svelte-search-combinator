@@ -1,5 +1,15 @@
-<div class="block p-6 rounded-lg shadow-lg bg-white max-w-sm flex justify-center">
-    <form>
+<script>
+import { createEventDispatcher } from 'svelte';
+
+const dispatch = createEventDispatcher();
+
+function surveyJoin() {
+  dispatch('surverJoin');
+}
+</script>
+
+<div class="flex justify-center items-center h-screen">
+  <div class="block p-6 rounded-lg shadow-lg bg-white max-w-sm ">
       <div class="form-group mb-6">
         <input type="text" class="form-control
           block
@@ -36,7 +46,7 @@
           placeholder="Enter survey key">
       </div>
 
-      <button type="submit" class="
+      <button class="
         px-6
         py-2.5
         bg-blue-600
@@ -52,6 +62,8 @@
         active:bg-blue-800 active:shadow-lg
         transition
         duration-150
-        ease-in-out">Submit</button>
-    </form>
+        ease-in-out"
+        on:click="{surveyJoin}"
+        >Join</button>
   </div>
+</div>
