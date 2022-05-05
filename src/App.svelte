@@ -7,6 +7,7 @@
 	import StackOverflow from './components/StackOverflow.svelte';
 	import Linkedin from './components/Linkedin.svelte';
 	import Twitter from './components/Twitter.svelte';
+	import Medium from './components/Medium.svelte';
 
 	function goToSurvey() {
 		navigate("/surveys")
@@ -29,6 +30,7 @@
 	<StackOverflow {cardSettigns}/>
 	<Twitter {cardSettigns}/>
 	<Linkedin {cardSettigns}/>
+	<Medium {cardSettigns}/>
 
 <style lang="postcss" global>
 	@tailwind base;
