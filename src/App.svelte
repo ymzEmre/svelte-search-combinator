@@ -3,6 +3,7 @@
 	import SurveyJoin from "./components/SurveyJoin.svelte";
 	import { navigate } from "svelte-navigator";
 	import Surveys from "./components/Surveys.svelte";
+	import GoogleKeep from './components/GoogleKeep.svelte';
 	import Github from './components/Github.svelte';
 	import StackOverflow from './components/StackOverflow.svelte';
 	import Linkedin from './components/Linkedin.svelte';
@@ -36,6 +37,7 @@
 	<Linkedin {cardSettigns}/>
 	<Medium {cardSettigns}/>
 	<YouTube {cardSettigns}/>
+	<GoogleKeep {cardSettigns}/>
 	<GoogleGmail {cardSettigns}/>
 	<GoogleCalendar {cardSettigns}/>
 	<GoogleDrive {cardSettigns}/>
