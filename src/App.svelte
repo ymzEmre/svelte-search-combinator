@@ -1,4 +1,5 @@
 <script>
+	import SpeechRecognition from './components/SpeechRecognition.svelte';
 	import { Router, Link, Route } from "svelte-navigator";
 	import SurveyJoin from "./components/SurveyJoin.svelte";
 	import { navigate } from "svelte-navigator";
@@ -17,9 +18,15 @@
 
 	function goToSurvey() {
 		navigate("/surveys")
+	let cardSettigns = {
+		classContainer : 'flex flex-col flex-column md:flex-row md:max-w-sm rounded-lg bg-gray-100 shadow-md',
+		classImg : 'w-full h-14 w-14 md:h-14 object-contain md:w-14 ml-2 mb-3 ',
+		classInput : 'form-control relative flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:border-blue-600 hover:border-blue-600 focus:outline-none',
+		classButton : 'btn inline-block px-6 py-2.5 bg-gray-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-500 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out flex items-center'
 	}
 </script>
 
+<SpeechRecognition />
 
 <Router>
 	<main>
