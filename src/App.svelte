@@ -22,17 +22,30 @@
 
 <SpeechRecognition />
 
+<div class="text-3xl leading-tight text-center bg-gray-300 text-gray-700">
+	<span class="text-xl inline-block py-2 px-10 leading-none text-center whitespace-nowrap align-baseline font-bold bg-slate-600 text-white rounded-full mb-3 mt-3">Developer</span>
+</div>
+
+<div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-5 ml-5">
 	<Github {cardSettigns}/>
 	<StackOverflow {cardSettigns}/>
 	<Twitter {cardSettigns}/>
 	<Linkedin {cardSettigns}/>
 	<Medium {cardSettigns}/>
+</div>
+
+<div class="text-3xl leading-tight text-center bg-gray-300 text-gray-700 mt-5 mb-5">
+	<span class="text-xl inline-block py-2 px-10 leading-none text-center whitespace-nowrap align-baseline font-bold bg-slate-600 text-white rounded-full mb-3 mt-3">General</span>
+</div>
+
+<div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-5 ml-5">
 	<YouTube {cardSettigns}/>
 	<GoogleKeep {cardSettigns}/>
 	<GoogleGmail {cardSettigns}/>
 	<GoogleCalendar {cardSettigns}/>
 	<GoogleDrive {cardSettigns}/>
 	<GoogleMaps {cardSettigns}/>
+</div>
 
 <style lang="postcss" global>
 	@tailwind base;
