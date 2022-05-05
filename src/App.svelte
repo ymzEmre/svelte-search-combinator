@@ -11,6 +11,7 @@
 	import YouTube from './components/YouTube.svelte';
 	import GoogleCalendar from './components/GoogleCalendar.svelte';
 	import GoogleGmail from './components/GoogleGmail.svelte';
+	import GoogleDrive from './components/GoogleDrive.svelte';
 
 	function goToSurvey() {
 		navigate("/surveys")
@@ -37,6 +38,7 @@
 	<YouTube {cardSettigns}/>
 	<GoogleGmail {cardSettigns}/>
 	<GoogleCalendar {cardSettigns}/>
+	<GoogleDrive {cardSettigns}/>
 
 <style lang="postcss" global>
 	@tailwind base;
