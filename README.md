@@ -1,10 +1,14 @@
-# Speech recognition
+## Svelte Search Combinator
 
-[svelte-search-combinator](https://docs.google.com/uc?export=open&id=1mlRTVNoCBXtYKw1KxpHi0vIHXk_pGLYe)
+A project that combines the search engines of the applications I use the most on one page.
 
-# Search input
+## Speech recognition
 
-[svelte-search-combinator](https://docs.google.com/uc?export=open&id=1EupWJ9342aCvs2AAV22FVhVZSGBiBFuB)
+![svelte-search-combinator](https://docs.google.com/uc?export=open&id=1mlRTVNoCBXtYKw1KxpHi0vIHXk_pGLYe)
+
+## Search input
+
+![svelte-search-combinator](https://docs.google.com/uc?export=open&id=1EupWJ9342aCvs2AAV22FVhVZSGBiBFuB)
 
 ## Installation
 
