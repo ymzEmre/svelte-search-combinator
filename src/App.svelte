@@ -6,6 +6,7 @@
 	import Github from './components/Github.svelte';
 	import StackOverflow from './components/StackOverflow.svelte';
 	import Linkedin from './components/Linkedin.svelte';
+	import Twitter from './components/Twitter.svelte';
 
 	function goToSurvey() {
 		navigate("/surveys")
@@ -26,6 +27,7 @@
   </Router>
 	<Github {cardSettigns}/>
 	<StackOverflow {cardSettigns}/>
+	<Twitter {cardSettigns}/>
 	<Linkedin {cardSettigns}/>
 
 <style lang="postcss" global>
