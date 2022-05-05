@@ -1,9 +1,5 @@
 <script>
 	import SpeechRecognition from './components/SpeechRecognition.svelte';
-	import { Router, Link, Route } from "svelte-navigator";
-	import SurveyJoin from "./components/SurveyJoin.svelte";
-	import { navigate } from "svelte-navigator";
-	import Surveys from "./components/Surveys.svelte";
 	import GoogleKeep from './components/GoogleKeep.svelte';
 	import Github from './components/Github.svelte';
 	import StackOverflow from './components/StackOverflow.svelte';
@@ -16,8 +12,6 @@
 	import GoogleDrive from './components/GoogleDrive.svelte';
 	import GoogleMaps from './components/GoogleMaps.svelte';
 
-	function goToSurvey() {
-		navigate("/surveys")
 	let cardSettigns = {
 		classContainer : 'flex flex-col flex-column md:flex-row md:max-w-sm rounded-lg bg-gray-100 shadow-md',
 		classImg : 'w-full h-14 w-14 md:h-14 object-contain md:w-14 ml-2 mb-3 ',
@@ -28,17 +22,6 @@
 
 <SpeechRecognition />
 
-<Router>
-	<main>
-	  <Route path="/">
-		<SurveyJoin on:surverJoin={goToSurvey}/>
-	  </Route>
-  
-	  <Route path="surveys">
-		<Surveys />
-	  </Route>
-	</main>
-  </Router>
 	<Github {cardSettigns}/>
 	<StackOverflow {cardSettigns}/>
 	<Twitter {cardSettigns}/>

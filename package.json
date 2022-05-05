@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
+    "dev": "rollup -c -w -s",
+    "start": "sirv public --no-clear -s"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "sirv-cli": "^2.0.0",
-    "svelte-navigator": "^3.1.5",
     "tw-elements": "^1.0.0-alpha12"
   }
 }
