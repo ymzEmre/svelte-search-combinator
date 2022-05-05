@@ -1,5 +1,5 @@
 <script>
-  const appUrl = 'https://stackoverflow.com/questions/tagged/'
+  const appUrl = 'https://stackoverflow.com/search?q='
   const appLogo = 'https://docs.google.com/uc?export=open&id=1HQUIPlKuhYDWVi1DYFpxjdW0NKl-KgPO'
   let searchContent = null;
   const placeholder = 'Stack Overflow';
