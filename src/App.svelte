@@ -4,6 +4,7 @@
 	import { navigate } from "svelte-navigator";
 	import Surveys from "./components/Surveys.svelte";
 	import Github from './components/Github.svelte';
+	import StackOverflow from './components/StackOverflow.svelte';
 
 	function goToSurvey() {
 		navigate("/surveys")
@@ -23,6 +24,7 @@
 	</main>
   </Router>
 	<Github {cardSettigns}/>
+	<StackOverflow {cardSettigns}/>
 
 <style lang="postcss" global>
 	@tailwind base;
