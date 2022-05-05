@@ -8,6 +8,7 @@
 	import Linkedin from './components/Linkedin.svelte';
 	import Twitter from './components/Twitter.svelte';
 	import Medium from './components/Medium.svelte';
+	import YouTube from './components/YouTube.svelte';
 
 	function goToSurvey() {
 		navigate("/surveys")
@@ -31,6 +32,7 @@
 	<Twitter {cardSettigns}/>
 	<Linkedin {cardSettigns}/>
 	<Medium {cardSettigns}/>
+	<YouTube {cardSettigns}/>
 
 <style lang="postcss" global>
 	@tailwind base;
