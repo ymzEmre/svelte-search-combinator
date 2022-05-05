@@ -2,6 +2,8 @@
 
 A project that combines the search engines of the applications I use the most on one page.
 
+[Demo](https://svelte-search-combinator.netlify.app)
+
 ## Speech recognition
 
 ![svelte-search-combinator](https://user-images.githubusercontent.com/19785698/166866119-7e9c67be-e5af-4765-be6f-24f647be4cc2.gif)
