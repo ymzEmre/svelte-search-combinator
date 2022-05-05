@@ -13,6 +13,7 @@
 	import GoogleCalendar from './components/GoogleCalendar.svelte';
 	import GoogleGmail from './components/GoogleGmail.svelte';
 	import GoogleDrive from './components/GoogleDrive.svelte';
+	import GoogleMaps from './components/GoogleMaps.svelte';
 
 	function goToSurvey() {
 		navigate("/surveys")
@@ -41,6 +42,7 @@
 	<GoogleGmail {cardSettigns}/>
 	<GoogleCalendar {cardSettigns}/>
 	<GoogleDrive {cardSettigns}/>
+	<GoogleMaps {cardSettigns}/>
 
 <style lang="postcss" global>
 	@tailwind base;
