@@ -3,6 +3,7 @@
 	import SurveyJoin from "./components/SurveyJoin.svelte";
 	import { navigate } from "svelte-navigator";
 	import Surveys from "./components/Surveys.svelte";
+	import Github from './components/Github.svelte';
 
 	function goToSurvey() {
 		navigate("/surveys")
@@ -21,6 +22,7 @@
 	  </Route>
 	</main>
   </Router>
+	<Github {cardSettigns}/>
 
 <style lang="postcss" global>
 	@tailwind base;
