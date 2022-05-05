@@ -1,7 +1,7 @@
 <script>
 	import SpeechRecognition from './components/SpeechRecognition.svelte';
 	import GoogleKeep from './components/GoogleKeep.svelte';
-	import Github from './components/Github.svelte';
+	import Github from './components/GitHub.svelte';
 	import StackOverflow from './components/StackOverflow.svelte';
 	import Linkedin from './components/Linkedin.svelte';
 	import Twitter from './components/Twitter.svelte';
